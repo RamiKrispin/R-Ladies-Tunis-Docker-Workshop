@@ -86,4 +86,6 @@ RUN sudo add-apt-repository ppa:git-core/ppa && \
 	sudo apt-get update -y && \
 	sudo apt-get install git -y
 
-RUN git --version
+ENTRYPOINT ["sh", "-c"]
+
+CMD ["R --no-save"]
