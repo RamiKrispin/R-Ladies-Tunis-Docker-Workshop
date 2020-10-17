@@ -20,6 +20,8 @@ To push the docker to Docker Hub use:
 docker push rkrispin/baser:400
 ```
 
+The image is available over [here](https://hub.docker.com/repository/docker/rkrispin/baser/general)
+
 To launch the container use:
 
 ``` shell
