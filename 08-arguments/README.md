@@ -24,4 +24,11 @@ For example, if we wish to build the image using R 3.6.2:
 docker build --build-arg major=3 --build-arg minor=6 --build-arg patch=2 . -t rkrispin/baser:v3.6.2
 ```
 
+Let's log to the image to check the R version:
+
+``` shell
+docker run -t -d rkrispin/baser:v3.6.2
+
+docker exec -it container_id /bin/sh; 
+```
 
