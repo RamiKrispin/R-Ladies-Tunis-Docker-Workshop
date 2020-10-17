@@ -5,3 +5,5 @@ Using the `RUN Rscript -e "install.packages(...)` function might be too convolut
 ```
 docker build . -t rkrispin/baser:multiple_packages
 ```
+
+Let's try to add additional package and rerun the build.
