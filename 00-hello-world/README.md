@@ -5,7 +5,7 @@ We will start with the Hello-World example for docker:
 ```
 docker run docker/whalesay cowsay hello-world
 ```
-
+```
  _____________
 < hello-world >
  -------------
@@ -20,3 +20,5 @@ docker run docker/whalesay cowsay hello-world
        \______ o          __/
         \    \        __/
           \____\______/
+          
+```
