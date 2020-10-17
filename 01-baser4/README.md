@@ -39,3 +39,8 @@ docker exec -it container_id /bin/sh;
 ```
 
 To get the `container_id` use `docker container ps`
+
+To view the metadata of the image:
+```
+docker inspect rkrispin/baser:400
+```
