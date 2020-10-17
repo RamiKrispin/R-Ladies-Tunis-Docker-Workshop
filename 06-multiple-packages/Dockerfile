@@ -15,12 +15,10 @@ RUN install2.r --error \
   
 # Install modeling packages
 RUN install2.r --error \
-  forecast \
   tsibble \
   fable
 
 # Install viz tools packages
 RUN install2.r --error \
-  ggplot2 \
-  plotly
+  ggplot2 
   
