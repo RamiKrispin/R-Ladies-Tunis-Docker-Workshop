@@ -6,4 +6,4 @@ After creating a base R image, in this example we will try to build on top of `b
 docker build . -t rkrispin/tidyverse:latest
 ```
 
-This build will fail, as we did not configurate the `ropos` option, and therefore, the `install.packages` command fail. In the following example we will solve it 
+This build will fail, as we did not configurate the `ropos` option, and therefore, the `install.packages` command fail. In the following next we will solve it 
