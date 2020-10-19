@@ -11,7 +11,7 @@ Build arguments:
 * `-t` - Name and optionally a tag in the `name:tag` format
 * `docker build` arguments documentation - https://docs.docker.com/engine/reference/commandline/build/
 
-Where `rkrispin` is the Ducker Hub address, `baser` is the image name, and `400` is the image tag. You can use also `docker build . -t baser:400`, but then you will have to retag it before pushing it to Docker Hub
+Where `rkrispin` is the Docker Hub address, `baser` is the image name, and `400` is the image tag. You can use also `docker build . -t baser:400`, but then you will have to retag it before pushing it to Docker Hub
 
 
 To push the docker to Docker Hub use:
